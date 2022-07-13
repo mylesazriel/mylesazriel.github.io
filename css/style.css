@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family:"Work Sans";
+    font-size: 16px;
+    color: #0d0c0c; 
+}
+
+.container{
+    max-width: 700px; 
+    background-color: rgba(250, 235, 215, 0.836);
+    margin: 0px auto 0px;
+    padding: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 45px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: 	#dd2020;
+}
+
+.separator {
+    height: 13px;
+    display: inline-block;
+    border-left: 2px solid #0d0c0c9a;
+    margin: 0px 10px;
+}
+
+.section_title{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    /* color: 	#3032adef; - This is for a nice blue colour*/
+    color: 	#dd2020;
+}
+
+.section{
+    margin-top: 5px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 49%;
+}
+
+.left ,
+.right {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.school ,
+.job ,
+.project {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.duration {
+    font-style: italic;
+}
+
+.technical_work {
+    margin-top: 10px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+li{
+    margin: 0px;
+    margin-bottom: 0px;
+  }
+
